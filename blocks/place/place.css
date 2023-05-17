@@ -1,0 +1,26 @@
+.place {
+    width: 984px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        width: 928px;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .place {
+        width: 720px;
+    }
+} 
+
+@media screen and (max-width: 319px) {
+    .place {
+        flex-direction: column;
+        width: 316px;
+    }
+} 

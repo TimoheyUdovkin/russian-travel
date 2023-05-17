@@ -1,0 +1,16 @@
+.page__intro {
+    margin: 0px auto 92px auto;
+    padding: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .page__intro {
+        margin: 0px auto 88px auto;
+    }
+} 
+
+@media screen and (max-width: 319px) {
+    .page__intro {
+        margin: 0px auto 64px auto;
+    }
+}

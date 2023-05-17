@@ -1,0 +1,29 @@
+.cover__overlay {
+    width: 1184px;
+    height: 740px;
+    background:url(./images/cover-trains.jpg);
+    background-size: cover; 
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__overlay {
+        width: 1023px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__overlay {
+        width: 767px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .cover__overlay {
+        width: 316px;
+        height: 200px;
+    }
+}
