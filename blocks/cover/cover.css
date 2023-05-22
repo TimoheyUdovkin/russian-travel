@@ -27,13 +27,13 @@ opacity: 0.8;
 
 @media screen and (max-width: 1023px) {
     .cover {
-        width: 1023px;
+        width: 1000px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover {
-        width: 767px;
+        width: 760px;
         height: 480px;
     }
 }

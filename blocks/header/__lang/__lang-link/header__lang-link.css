@@ -28,3 +28,7 @@
     padding: 0px 0px 0px 0px;
     text-decoration: none;
 }
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
