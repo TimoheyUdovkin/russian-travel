@@ -1,4 +1,4 @@
-.header__lang_link {
+.header_lang_link {
     font-family: 'Inter', 'Tahoma';
     font-size: 24px;
     font-weight: 400;
@@ -11,22 +11,22 @@
 }
 
 @media screen and (max-width: 319px) {
-    .header__lang_link {
+    .header_lang_link {
         font-weight: 400;
         font-size: 18px;
         line-height: 20px;
     }
 }
 
-.header__lang_link:nth-of-type(1) {
+.header_lang_link:nth-of-type(1) {
     margin: 0px 18px 0px 0px;
 }
 
-.header__lang_link:nth-of-type(2) {
+.header_lang_link:nth-of-type(2) {
     margin: 0px 0px 0px 0px;
     text-decoration: none;
 }
 
-.header__lang_link:hover {
+.header_lang_link:hover {
     opacity: 0.8;
 }
