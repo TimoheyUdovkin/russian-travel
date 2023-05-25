@@ -1,17 +1,16 @@
-.page__cover {
+.content__cover {
     margin: 0px auto 92px auto;
     padding: 0px 0px 0px 0px;
 }
 
 @media screen and (max-width: 767px) {
-    .page__cover {
+    .content__cover {
         margin: 0px auto 88px auto;
-        padding: 0px 0px 0px 0px;
     }
 }
 
 @media screen and (max-width: 319px) {
-    .page__cover {
+    .content__cover {
         margin: 0px auto 64px auto;
     }
 }

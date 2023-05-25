@@ -1,5 +1,5 @@
 .footer__link {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Tahoma';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -14,15 +14,21 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 767px) {
     .footer__link  {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
         font-size: 24px;
         line-height: 24px;
         color: #FFFFFF;
         margin: 0px 0px 32px 0px;
-        width: 85px;
+        max-width: 85px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .footer__link  {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0px 0px 32px 0px;
+        max-width: 85px;
     }
 }

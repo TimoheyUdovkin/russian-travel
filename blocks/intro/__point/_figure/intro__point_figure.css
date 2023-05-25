@@ -1,12 +1,11 @@
-.intro__list {
+.intro__point_figure {
     font-family: 'Inter', 'Tahoma';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
     list-style-type: none;
-    padding-left: 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 5px;
     padding: 0px 0px 0px 0px;
 }

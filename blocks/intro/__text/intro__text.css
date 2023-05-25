@@ -1,6 +1,6 @@
 .intro__text {
-    width: 690px;
-    font-family: 'Inter';
+    max-width: 690px;
+    font-family: 'Inter', 'Tahoma';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -10,8 +10,14 @@
     padding: 0px 0px 0px 0px;
 }
 
+@media screen and (max-width: 767px) {
+    .intro__text {
+        max-width: 288px;
+    }
+}
+
 @media screen and (max-width: 319px) {
     .intro__text {
-        width: 288px;
+        max-width: 288px;
     }
 }

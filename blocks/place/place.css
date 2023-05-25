@@ -1,26 +1,40 @@
 .place {
-    width: 984px;
+    max-width: 984px;
     display: flex;
     flex-wrap: wrap;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .place {
-        width: 928px;
+        max-width: 928px;
     }
 } 
 
+
+@media screen and (max-width: 1023px) {
+    .place {
+        max-width: 720px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .place {
+        max-width: 720px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .place {
-        width: 720px;
+        flex-direction: column;
+        max-width: 316px;
     }
 } 
 
 @media screen and (max-width: 319px) {
     .place {
         flex-direction: column;
-        width: 316px;
+        max-width: 316px;
     }
 } 

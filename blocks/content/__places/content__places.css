@@ -1,15 +1,16 @@
-.page__places {
+.content__places {
     margin: 0px auto 92px auto;
+    padding: 0px;
 }
 
 @media screen and (max-width: 767px) {
-    .page__places {
+    .content__places {
         margin: 0px auto 90px auto;
     }
 }
 
 @media screen and (max-width: 319px) {
-    .page__places {
+    .content__places {
         margin: 0px auto 66px auto;
     }
 }
