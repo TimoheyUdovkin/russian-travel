@@ -22,7 +22,7 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__point/_item/intro__point_item.css);
-@import url(../blocks/intro/__point/_figure/intro__point_figure.css);
+@import url(../blocks/intro/__figure/intro__figure.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/content/__intro/content__intro.css);
