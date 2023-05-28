@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 1279px) {
     .cover__image {
-        max-width: 1000px;
+        max-width: 1024px;
+        max-height: 640px;
     }
 }
 
@@ -37,9 +38,9 @@
     }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
     .cover__image {
-        max-width: 316px;
+        max-width: 318px;
         max-height: 200px;
     }
 }

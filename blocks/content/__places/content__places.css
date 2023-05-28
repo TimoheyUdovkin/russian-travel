@@ -3,13 +3,13 @@
     padding: 0px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .content__places {
         margin: 0px auto 90px auto;
     }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
     .content__places {
         margin: 0px auto 66px auto;
     }
