@@ -6,7 +6,6 @@
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
         position: relative;
-        z-index: 3;
     }
 
     .cover:before {
@@ -42,7 +41,7 @@
 
     @media screen and (max-width: 768px) {
         .cover {
-            max-width: 760px;
+            max-width: 750px;
             max-height: 480px;
         }
     }
