@@ -1,10 +1,10 @@
 .place__website {
-    width: 456px;
+    max-width: 456px;
     display: flex;
     flex-direction: column;
     justify-content: end;
     margin: 0px 0px 0px 40px;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,16 +20,9 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .place__website  {
-        margin: 0px 0px 0px 28px;
-        width: 352px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .place__website  {
-        margin: 0px 0px 0px 16px;
+        margin: 32px 0px 0px 16px;
         width: 288px;
     }
 }
@@ -37,6 +30,5 @@
 @media screen and (max-width: 320px) {
     .place__website  {
         margin: 32px 0px 0px 16px;
-        width: 288px;
     }
 }

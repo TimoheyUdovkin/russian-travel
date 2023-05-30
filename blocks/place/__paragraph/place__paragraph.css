@@ -7,103 +7,52 @@
     color: #FFFFFF;
     max-width: 484px;
     margin: 48px 0px 26px 0px;
-    padding: 0px 0px 0px 0px;
 }
 
 .place__paragraph:nth-child(2) {
     margin: 26px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
 }
 
 
 .place__paragraph:nth-child(4) {
     margin: 26px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
 }
 
 .place__paragraph:nth-child(6) {
     margin: 26px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
 }
 
-
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     .place__paragraph {
         margin: 48px 0px 27px 0px;
         max-width: 456px;
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .place__paragraph {
-        margin: 48px 0px 25px 0px;
         max-width: 352px;
         font-size: 16px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place__paragraph {
-        margin: 48px 0px 25px 0px;
-        max-width: 352px;
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__paragraph {
-        margin: 0px auto 25px auto;
+        margin: 0px auto 0px auto;
         max-width: 288px;
     }
-}
 
-@media screen and (max-width: 768px) {
-    .place__paragraph {
-        margin: 0px auto 25px auto;
-        max-width: 288px;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .place__paragraph:nth-child(2) {
-        margin: 26px auto 0px auto;
-        padding: 0px 0px 0px 0px;
+        margin: 25px auto 0px auto;
     }
     
     
     .place__paragraph:nth-child(4) {
-        margin: 26px auto 0px auto;
-        padding: 0px 0px 0px 0px;
+        margin: 25px auto 0px auto;
     }
     
     .place__paragraph:nth-child(6) {
-        margin: 26px auto 0px auto;
-        padding: 0px 0px 0px 0px;
+        margin: 25px auto 0px auto;
     }
-}
 
-@media screen and (max-width: 320px) {
-    .place__paragraph {
-        margin: 0px auto 25px auto;
-        max-width: 288px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__paragraph:nth-child(2) {
-        margin: 26px auto 0px auto;
-        padding: 0px 0px 0px 0px;
-    }
-    
-    
-    .place__paragraph:nth-child(4) {
-        margin: 26px auto 0px auto;
-        padding: 0px 0px 0px 0px;
-    }
-    
-    .place__paragraph:nth-child(6) {
-        margin: 26px auto 0px auto;
-        padding: 0px 0px 0px 0px;
-    }
 }

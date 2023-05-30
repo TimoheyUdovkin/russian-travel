@@ -1,7 +1,7 @@
 .intro {
     max-width: 984px;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;    
+    padding: 0;    
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,23 +17,8 @@
     }
 } 
 
-@media screen and (max-width: 768px) {
-    .intro {
-        max-width: 720px;
-        margin: 0px auto 0px auto;
-    }
-} 
-
 @media screen and (max-width: 767px) {
     .intro {
         max-width: 288px;
-        margin: 0px auto 0px auto;
-    }
-}
-
-@media screen and (max-width: 319px) {
-    .intro {
-        max-width: 288px;
-        margin: 0px auto 0px auto;
     }
 }

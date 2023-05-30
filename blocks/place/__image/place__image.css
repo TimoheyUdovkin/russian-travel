@@ -3,7 +3,6 @@
     max-height: 460px;
     float: left;
     margin: 48px 40px 0px 0px;
-    padding: 0px 0px 0px 0px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,26 +21,10 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .place__image  {
-        max-width: 340px;
-        max-height: 340px;
-        margin: 48px 28px 0px 0px; 
-    }
-}
-
 @media screen and (max-width: 767px) {
     .place__image  {
-        max-width: 316px;
+        max-width: 320px;
         max-height: 320px;
-        margin: 32px 0px 32px 0px; 
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__image  {
-        max-width: 316px;
-        max-height: 320px;
-        margin: 32px 0px 32px 0px; 
+        margin: 32px auto 32px auto; 
     }
 }

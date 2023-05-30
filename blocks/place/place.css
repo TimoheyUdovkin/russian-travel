@@ -2,8 +2,8 @@
     max-width: 984px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,29 +12,15 @@
     }
 } 
 
-
 @media screen and (max-width: 1023px) {
     .place {
         max-width: 720px;
     }
 } 
 
-@media screen and (max-width: 768px) {
-    .place {
-        max-width: 720px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .place {
         flex-direction: column;
-        max-width: 316px;
-    }
-} 
-
-@media screen and (max-width: 319px) {
-    .place {
-        flex-direction: column;
-        max-width: 316px;
+        max-width: 320px;
     }
 } 
