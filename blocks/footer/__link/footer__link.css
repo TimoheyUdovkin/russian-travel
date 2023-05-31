@@ -21,4 +21,9 @@
         margin: 0px 0px 32px 0px;
         max-width: 85px;
     }
+
+    .footer__link:nth-child(5) {
+        margin: 0px;
+    }
+
 }
