@@ -1,5 +1,6 @@
 .places {
     display: grid;
+    grid-template-columns: repeat(1);
     justify-content: center;
     gap: 80px;
     margin: 0px auto 0px auto;

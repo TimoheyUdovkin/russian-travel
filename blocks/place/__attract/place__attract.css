@@ -1,0 +1,27 @@
+.place__attract{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: end;
+    column-gap:40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__attract  {
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__attract  {
+        column-gap: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__attract  {
+        grid-template-columns: repeat(1, 2fr);
+        row-gap: 32px;
+    }
+}

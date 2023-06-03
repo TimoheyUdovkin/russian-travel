@@ -1,8 +1,9 @@
 .place {
     max-width: 984px;
-    display: flex;
+    display: grid;
+    gap: 48px;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 0px auto;
     padding: 0;
 }
 
@@ -20,7 +21,7 @@
 
 @media screen and (max-width: 767px) {
     .place {
-        flex-direction: column;
         max-width: 320px;
+        gap: 32px ;
     }
 } 
